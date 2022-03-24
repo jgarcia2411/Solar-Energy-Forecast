@@ -1,9 +1,9 @@
-# Solar-Energy-Forecast
+## Predicting Solar Energy production from weather parameters
 
-- This analysis is a capstone project for my introductory class of Data Analytics
-- Forecasting solar energy is an important task to manage solar power systems, ensure power supply, and reduce operational risks. 
-In this study, several machine learning models were compared in order to predict solar power from a power plant in Berkeley, California. 
-The methodology in this study was applied using a distributed computing framework on Apache Spark. 
-Data was collected from public databases and includes weather measurements recorded in 2008 and 2009. 
-The results show that the random forest regression algorithm performed the best for predicting solar power, with an R-squared value of 89%. 
-Finally, this model allowed for the identification of  which weather parameters are most important in predicting solar power.
+Solar energy is a renewable source promised to be a crucial part of the future energy grid. Since it is dependent on weather, companies are interested to understand the impact on energy production under different weather scenarios. Additionally, solar energy can’t be cost-efficiently stored, hence forecasting its capacity is increasingly valuable to electric power system operators. Therefore, this class project was developed to understand which weather parameters influence energy production in a solar farm, and how much energy is expected to produce given current weather. In this project, I merged and analyzed solar farm energy production and weather data. I trained machine learning models and predicted power supply given weather data. 
+
+Project highlights:
+-	Machine learning implementation in Spark
+-	Model deployment with MLflow and Streamlit (coming soon....)
+-	Decision Tree best prediction metrics: RMSE = 3412, R-squared = 0.92
+-	[View Jupyter Notebook](SOLAR_FINAL.html)
