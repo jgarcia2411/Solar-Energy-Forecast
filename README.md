@@ -6,4 +6,4 @@ Project highlights:
 -	Machine learning implementation in Spark
 -	Model deployment with MLflow and Streamlit (coming soon....)
 -	Decision Tree best prediction metrics: RMSE = 3412, R-squared = 0.92
--	[View Jupyter Notebook](SOLAR_FINAL.html)
+-	[View Jupyter Notebook](/Notebooks/SOLAR_FINAL.html)
